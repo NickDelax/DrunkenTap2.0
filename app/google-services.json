@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "78093607000",
+    "firebase_url": "https://drunkentaplogin.firebaseio.com",
+    "project_id": "drunkentaplogin",
+    "storage_bucket": "drunkentaplogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78093607000:android:74817535954d6206236a2d",
+        "android_client_info": {
+          "package_name": "com.example.drunkentaplogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78093607000-6gequ70c3nj4ngoc72thjcvoa8m75096.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.drunkentaplogin",
+            "certificate_hash": "e5743266ef49e37d1bb64ee7efa897731a41216d"
+          }
+        },
+        {
+          "client_id": "78093607000-6q1a7fsf3q6584guanl73m3fmjhjchbc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd7RsxZr1Dh7OxJkm0zSmry976T1ACYRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78093607000-6q1a7fsf3q6584guanl73m3fmjhjchbc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

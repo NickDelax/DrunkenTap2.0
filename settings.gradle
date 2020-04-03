@@ -1,0 +1,2 @@
+rootProject.name='DrunkenTapLogin'
+include ':app'
