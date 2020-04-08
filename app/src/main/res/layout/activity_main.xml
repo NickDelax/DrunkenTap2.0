@@ -30,7 +30,6 @@
         android:id="@+id/editEmail"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="101dp"
@@ -46,11 +45,11 @@
 
     <EditText
         android:id="@+id/editPassword"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="385dp"
+        android:layout_height="44dp"
         android:layout_below="@+id/editEmail"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="10dp"
         android:layout_marginBottom="16dp"
         android:ems="10"
         android:gravity="center"
@@ -64,12 +63,14 @@
 
     <Button
         android:id="@+id/buttonLogin"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        android:layout_height="48dp"
         android:layout_below="@+id/editPassword"
-        android:layout_marginTop="6dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="28dp"
+        android:background="@drawable/custom_button"
         android:text="Iniciar sesion "
+        android:textColor="@color/colorWhite"
         app:layout_constraintBottom_toTopOf="@+id/buttonRegister"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -77,12 +78,14 @@
 
     <Button
         android:id="@+id/buttonRegister"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="261dp"
+        android:layout_height="50dp"
         android:layout_below="@+id/buttonLogin"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="51dp"
+        android:background="@drawable/custom_button"
         android:text="No tienes cuenta? | Registrate"
+        android:textColor="@color/colorWhite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

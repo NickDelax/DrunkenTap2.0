@@ -23,13 +23,14 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/editName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.642"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editName"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="317dp"
+        android:layout_height="38dp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="80dp"
@@ -41,16 +42,16 @@
         android:textColor="#000"
         app:layout_constraintBottom_toTopOf="@+id/editEmail"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
         android:id="@+id/editEmail"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="336dp"
+        android:layout_height="45dp"
         android:layout_below="@+id/editName"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:gravity="center"
         android:hint="Ingresa tu Email"
@@ -63,10 +64,11 @@
 
     <EditText
         android:id="@+id/editPassword"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="298dp"
+        android:layout_height="47dp"
         android:layout_below="@+id/editEmail"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:gravity="center"
         android:hint="Ingresa una contraseña"
@@ -79,28 +81,31 @@
 
     <Button
         android:id="@+id/buttonRegister"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="323dp"
+        android:layout_height="52dp"
         android:layout_below="@+id/editPassword"
+        android:layout_marginTop="100dp"
         android:layout_marginBottom="11dp"
+        android:background="@drawable/custom_button"
         android:text="REGISTRARSE"
+        android:textColor="@color/colorWhite"
         app:layout_constraintBottom_toTopOf="@+id/buttonLogin"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editPassword" />
 
     <Button
         android:id="@+id/buttonLogin"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
         android:layout_below="@+id/buttonRegister"
-        android:layout_marginTop="11dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="146dp"
+        android:background="@drawable/custom_button"
         android:text="Ir al Login"
+        android:textColor="@color/colorWhite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonRegister" />
 

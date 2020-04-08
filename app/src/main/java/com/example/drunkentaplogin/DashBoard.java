@@ -20,6 +20,7 @@ public class DashBoard extends AppCompatActivity {
     String EmailHolder;
     TextView Email;
     Button LogOUT ;
+    Button StartButton;
     FirebaseAuth mAuth;
     FirebaseAuth.AuthStateListener mAuthListner;
     FirebaseUser mUser;
@@ -32,14 +33,12 @@ public class DashBoard extends AppCompatActivity {
 
         Email = (TextView)findViewById(R.id.textView1);
         LogOUT = (Button)findViewById(R.id.button1);
+        StartButton = (Button)findViewById(R.id.button2);
 
         Intent intent = getIntent();
 
         // Receiving User Email Send By MainActivity.
         EmailHolder = intent.getStringExtra(Login.userEmail);
-
-        // Setting up received email to TextView.
-        Email.setText(Email.getText().toString()+ EmailHolder);
 
         // Adding click listener to Log Out button.
 
@@ -68,6 +67,15 @@ public class DashBoard extends AppCompatActivity {
 
             }
         });
+
+        StartButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(DashBoard.this, QuizActivity.class));
+            }
+        });
+
+
 
     }
 
